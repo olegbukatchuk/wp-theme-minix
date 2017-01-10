@@ -1,0 +1,39 @@
+/*
+Theme Name: Minix
+Version: 1.0
+Theme URI: https://bukatchuk.com/theme-minix/
+Author: Oleg Bukatchuk
+Author URI: https://bukatchuk.com/
+Description: Minix is a clean and minimal WordPress theme that requires no plugins to run. The theme features a dropdown menu, social media integration, sidebar widgets, threaded comments, theme option page, and more. The simple notebook is ready for both writers and readers.
+Tags: right-sidebar, theme-options, blog, news, photography, portfolio
+Text Domain: minix
+License: GNU General Public License, v3 (or newer)
+License URI: http://www.opensource.org/licenses/gpl-3.0.html
+*/
+@import url(css/common.css);
+@import url(css/class.css);
+@import url(css/navigation.css);
+@font-face{ 
+	font-family: 'Lato Light';
+	src: url('fonts/Lato Light.eot');
+	src: url('fonts/Lato Light.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Lato Light.woff') format('woff'),
+	url('fonts/Lato Light.ttf') format('truetype'),
+	url('fonts/Lato Light.svg#webfont') format('svg');
+	}
+@font-face{ 
+	font-family: 'Lato Regular';
+	src: url('fonts/Lato Regular.eot');
+	src: url('fonts/Lato Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Lato Regular.woff') format('woff'),
+	url('fonts/Lato Regular.ttf') format('truetype'),
+	url('fonts/Lato Regular.svg#webfont') format('svg');
+	}
+@font-face{ 
+	font-family: 'Lato Bold';
+	src: url('fonts/Lato Bold.eot');
+	src: url('fonts/Lato Bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Lato Bold.woff') format('woff'),
+	url('fonts/Lato Bold.ttf') format('truetype'),
+	url('fonts/Lato Bold.svg#webfont') format('svg');
+	}

@@ -1,0 +1,205 @@
+/*
+#######################################
+NAVIGATION
+#######################################
+*/
+div#navigation{
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	background-color:#FFFFFF;
+	width:900px;
+	height:45px;
+	z-index:100;
+	font-family: 'Lato Regular', sans-serif;
+	}
+div#navigation nav{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-left:0px;
+	padding-bottom: 0px;
+	margin:0 auto;
+	position:relative;
+	width:900px;
+	height:45px;
+	z-index:100;
+	}
+div#navigation nav ul{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	}
+div#navigation nav ul li{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	float: left;
+	list-style: none;
+	position: relative;
+	}
+div#navigation nav ul li a{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: 5px;
+	display: block;
+	float:left;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#000000;
+	}
+div#navigation nav ul li a:hover{
+	opacity: 1.0;
+	}
+div#navigation nav ul li ul{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+  	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	position: absolute;
+	left: 0;
+	display: none;
+	visibility: hidden;
+	z-index:400;
+	border-left: 0px solid #EEEEEE;
+	top:45px;
+	width: 250px;
+	z-index:400;
+	}
+div#navigation nav ul li ul li{
+	border-bottom: 1px solid #eeeeee;
+	}
+	div#navigation nav ul li ul li:last-child{
+	border-bottom: 0px;
+	}
+div#navigation nav ul li ul li a{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top:15px;
+	padding-left:20px;
+	padding-right:5px;
+	padding-bottom:15px;
+	width:210px;
+	background-color: #ffffff;
+	border-right: 0px solid #EEEEEE;
+	color: #000000;
+	text-align: left;
+	}
+div#navigation nav ul li:hover ul{
+ 	display: block;
+ 	visibility: visible;
+	}
+/*
+#######################################
+BREADCRUMBS
+#######################################
+*/
+div#breadcrumbs{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	text-align: justify;
+	font-size: 12.5px;
+	line-height: 25px;
+	font-family: 'Lato Regular', sans-serif;
+	text-transform: none;
+	color: #777777;
+	}
+div#breadcrumbs ul{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	}
+div#breadcrumbs li{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	float: left;
+	list-style: none;
+	text-transform: uppercase;
+	}
+div#breadcrumbs a{
+	background-color: #fff;
+	color: #000000;
+	text-transform: uppercase;
+	}
+/*
+#######################################
+PAGINATION
+#######################################
+*/
+#pagination{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom:0px;
+	text-align: center;
+	height: 32.5px;
+	}
+#pagination a{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-bottom: 7.5px;
+	padding-top: 7.5px;
+	padding-right: 5px;
+	display: inline-block;
+	font-size: 12.5px;
+	line-height: 12.5px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Lato Regular', sans-serif;
+	font-weight: normal;
+	color: #000000;
+	background-color: #eeeeee;
+	border: 1px solid #eeeeee;
+	}
